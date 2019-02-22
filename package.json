@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy" : "http://yolanda-store.herokuapp.com",
+  "proxy" : "https://yolanda-store.herokuapp.com",
   "eslintConfig": {
     "extends": "react-app"
   },
