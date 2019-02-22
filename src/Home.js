@@ -19,12 +19,12 @@ class Home extends Component {
       <div>
         <AppNavbar/>
         <Container fluid id="space" align="center">
-          <Link to="category/foodndrinks" > <img src={FnD} id="img"/></Link>
-          <Link to="/product/new" > <img src={create} id="img" style={{marginLeft:"20px"}}/></Link>
+          <Link to="category/foodndrinks" > <img src={FnD} id="img" alt="Food and Drinks"/></Link>
+          <Link to="/product/new" > <img src={create} id="img" style={{marginLeft:"20px"}} alt="create new product"/></Link>
         </Container>
         <Container fluid id="space" align="center">
-        <Link to="category/groomingprods"><img src={GP} id="img" /></Link>
-        <Link to="category/cleaningprods"><img src={CP} id="img"/></Link>
+        <Link to="category/groomingprods"><img src={GP} id="img" alt="Grooming Products"/></Link>
+        <Link to="category/cleaningprods"><img src={CP} id="img" alt="Cleaning Products"/></Link>
           </Container>
           <Container fluid id="space" align="center">
           
