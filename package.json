@@ -28,13 +28,4 @@
     "not op_mini all"
   ]
 }
-{
-  "proxy": {
-    "/api": {
-      "target": "https://yolanda-store.herokuapp.com",
-      "pathRewrite": {
-        "^/api": "/"
-      }
-    }
-  }
-}
+
