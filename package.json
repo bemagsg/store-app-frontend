@@ -20,7 +20,7 @@
   },
   "proxy": {
     "/api": {
-      "target": "http://localhost:8000",
+      "target": "https://yolanda-store.herokuapp.com",
       "pathRewrite": {
         "^/api": "/"
       }
