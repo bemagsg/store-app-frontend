@@ -2,7 +2,7 @@
   "root": "build/",
   "proxies": {
     "/route": {
-      "origin": "https://yolanda-store.herokuapp.com"
+      "origin": "url"
     }
   }
 }
