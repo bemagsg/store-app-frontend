@@ -18,14 +18,6 @@
     "eject": "react-scripts eject",
     "heroku-prebuild": "yarn install --production=false"
   },
-  "proxy": {
-    "/api": {
-      "target": "https://yolanda-store.herokuapp.com",
-      "pathRewrite": {
-        "^/api": "/"
-      }
-    }
-  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -35,4 +27,14 @@
     "not ie <= 11",
     "not op_mini all"
   ]
+}
+{
+  "proxy": {
+    "/api": {
+      "target": "https://yolanda-store.herokuapp.com",
+      "pathRewrite": {
+        "^/api": "/"
+      }
+    }
+  }
 }
