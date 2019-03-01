@@ -1,7 +1,7 @@
 {
   "proxies": {
     "/api/": {
-      "origin": "https://yolanda-store.herokuapp.coms"
+      "origin": "https://yolanda-store.herokuapp.com/"
     }
   }
 }
